@@ -1,8 +1,8 @@
-import { obtenerDatos } from "./api";
+import './style.css';
 
 document.querySelector('#app').innerHTML = `
   <div class="container mx-auto p-4">
-    <h1 class="text-2xl font-bold mb-4">Buscador de Amazon</h1>
+    <h1 class="" id="app">Buscador Productos de Amazon</h1>
     
     <!-- Formulario de búsqueda -->
     <form id="searchForm" class="mb-6">
@@ -11,7 +11,7 @@ document.querySelector('#app').innerHTML = `
           type="text" 
           id="keywordInput" 
           placeholder="Ejemplo: laptops, zapatos..." 
-          class="flex-1 p-2 border rounded"
+          class="input"
           required
         >
         <button 

@@ -35,6 +35,45 @@ h1 {
   line-height: 1.1;
 }
 
+input {
+  font-family: inherit;
+  font-size: 1em;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: 1px solid #646cff;
+  background-color: #1a1a1a;
+  color: #fff;
+  margin-right: 15px;
+  outline: none;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #63636e;
+}
+
+thead th:nth-child(1) {
+  width: 10%;
+}
+
+thead th:nth-child(2) {
+  width: 55%;
+}
+
+thead th:nth-child(3) {
+  width: 20%;
+}
+
+thead th:nth-child(4) {
+  width: 15%;
+}
+
+th, td {
+  padding: 20px;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -48,9 +87,11 @@ h1 {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.vanilla:hover {
   filter: drop-shadow(0 0 2em #f7df1eaa);
 }
